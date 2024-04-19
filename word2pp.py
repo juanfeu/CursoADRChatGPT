@@ -6,7 +6,7 @@ from pptx.util import Inches
 
 # Initialize the OpenAI client with your API key
 client = OpenAI(
-    api_key="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",
+    api_key="",
 )
 
 # List of climate change-related words
