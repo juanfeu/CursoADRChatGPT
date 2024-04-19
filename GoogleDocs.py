@@ -1,5 +1,5 @@
 function createDocWithChatGPTContent() {
-    var apiKey = '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';
+    var apiKey = '';
     var prompt = 'Creáme una entrada que hable sobre IA generativa para un blog de especializado';
     var response = UrlFetchApp.fetch('https://api.openai.com/v1/chat/completions', {
         method: 'post',
