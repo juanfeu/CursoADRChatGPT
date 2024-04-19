@@ -35,7 +35,7 @@ class TextToSpeechConverter(QWidget):
 
         url = "https://api.openai.com/v1/audio/speech"
         headers = {
-            "Authorization": "Bearer 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",
+            "Authorization": "Bearer ",
             "Content-Type": "application/json"
         }
         
