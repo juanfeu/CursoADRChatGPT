@@ -1,7 +1,7 @@
 import requests
 import json
 
-openai_api_key = "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"
+openai_api_key = ""
 if openai_api_key is None:
     raise ValueError("El API key no va bien.")
 
