@@ -2,7 +2,7 @@ import openai
 from openai import OpenAI
 import gradio as gr
 
-api_key = "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"  # Replace with your key
+api_key = ""  # Replace with your key
 client = OpenAI(api_key=api_key)
 
 def predict(message, history):
